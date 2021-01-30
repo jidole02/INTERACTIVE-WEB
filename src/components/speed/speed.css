@@ -1,0 +1,14 @@
+b{
+    transform: translate(360deg);
+}
+#plane{
+    transition: 5s;
+    animation-name: planeRotate;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+@keyframes planeRotate{
+    100%{
+        transform: rotate(1000000deg);
+    }
+}

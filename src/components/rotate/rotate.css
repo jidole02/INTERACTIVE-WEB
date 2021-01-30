@@ -1,0 +1,97 @@
+.card{
+    width:200px;
+    height:250px;
+    background-color:white;
+    animation-name: rotate; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    margin-bottom: 130vh;
+}
+.card:nth-of-type(2){
+    animation-duration: 6s;
+}
+.card:nth-of-type(3){
+    animation-duration: 5s;
+}
+.spade{
+    width:200px;
+    height:250px;
+    background-color:white;
+    animation-name: rotate; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    margin-bottom: 130vh;
+    background-image: url(./스페이드A\ .png);
+}
+.spade:nth-of-type(2){
+    animation-duration: 6s;
+}
+.spade:nth-of-type(3){
+    animation-duration: 5s;
+}
+.spade:nth-of-type(4){
+    animation-duration: 7s;
+}
+
+.joker{
+    width:200px;
+    height:250px;
+    background-color:white;
+    animation-name: rotate; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    margin-bottom: 130vh;
+    background-image: url(./스페이드\ .png);
+}
+.joker:nth-of-type(2){
+    animation-duration: 6s;
+}
+.joker:nth-of-type(3){
+    animation-duration: 5s;
+}
+.joker:nth-of-type(4){
+    animation-duration: 7s;
+}
+
+
+.king{
+    width:200px;
+    height:250px;
+    background-color:white;
+    animation-name: rotate; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    margin-bottom: 130vh;
+    background-image: url(./스페이드킹\ .png);
+}
+.king:nth-of-type(2){
+    animation-duration: 6s;
+}
+.king:nth-of-type(3){
+    animation-duration: 5s;
+}
+.king:nth-of-type(4){
+    animation-duration: 7s;
+}
+
+@keyframes rotate{
+    0%{
+        margin-bottom: 130vh;
+    }
+    100%{
+        transform: rotate(1600deg);
+        margin-bottom: -135vh;
+    }
+}
