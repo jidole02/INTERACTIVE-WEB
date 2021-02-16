@@ -35,7 +35,6 @@ class Speed extends Component {
         }
         return (
             <div>
-                {/*                 <S.circle></S.circle> */}
                 <S.menuBar>
                     <a href="https://www.facebook.com/profile.php?id=100012148756964"><i className="fab fa-facebook"></i></a>
                     <Link to="/main"><i className="far fa-times-circle"></i></Link>

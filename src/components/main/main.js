@@ -5,10 +5,6 @@ import * as main from './mainStyle';
 
 let i = 0;
 class Main extends Component {
-    constructor(props) {
-        super(props);
-        this.p1 = React.createRef(); // 리액트에서 DOM 에 접근하는 법
-    }
     state = {
         pageNum: 1
     }
@@ -47,7 +43,7 @@ class Main extends Component {
                             this.pageDeacrease
                         }
                     ></i>
-                    <a>- {this.state.pageNum} -</a>
+                    <a href="/">- {this.state.pageNum} -</a>
                     <i className="far fa-arrow-alt-circle-right"
                         onClick={
                             this.pageChange
@@ -58,11 +54,12 @@ class Main extends Component {
                     style={style}
                 >
                     <Link to="/speed" >
-                        <main.ChoosePage onClick={size
-                        } ref={this.p1} id={
+                        <main.ChoosePage 
+                        onClick={size}
+                        id={
                             (i === 0) ? "p1" : "p"
                         } style={{ backgroundColor: "rgb(240, 195, 49)" }}>
-                            <a href="/">: Regulation of speed </a>
+                            <p>: Regulation of speed </p>
                             <h4>Interective Web Project</h4>
                             <h1>Speed <br />
                         Demonstrate
@@ -73,7 +70,7 @@ class Main extends Component {
                         <main.ChoosePage id={
                             (i === 1) ? "p1" : "p"
                         } style={{ backgroundColor: "rgb(241, 83, 255)" }}>
-                            <a href="/">: Follow the mouse </a>
+                            <p>: Follow the mouse </p>
                             <h4>Interective Web Project</h4>
                             <h1>Mouse <br />
                         Demonstrate
@@ -84,7 +81,7 @@ class Main extends Component {
                         <main.ChoosePage id={
                             (i === 2) ? "p1" : "p"
                         } style={{ backgroundColor: "coral" }}>
-                            <a href="/">: Turning effect </a>
+                            <p>: Turning effect </p>
                             <h4>Interective Web Project</h4>
                             <h1>Rotate <br />
                         Demonstrate
@@ -95,7 +92,7 @@ class Main extends Component {
                         <main.ChoosePage id={
                             (i === 3) ? "p1" : "p"
                         } style={{ backgroundColor: "rgb(255, 60, 86)" }}>
-                            <a href="/">: Interective Web </a>
+                            <p>: Interective Web </p>
                             <h4>Interective Web Project</h4>
                             <h1>Color <br />
                         Demonstrate

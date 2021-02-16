@@ -25,6 +25,10 @@ const ChoosePage = styled.div`
         text-orientation: mixed;
         margin-left:0;
     }
+    p{
+        font-weight:bold;
+        color:black;
+    }
     :hover{
         transform:rotateY(0deg);
     }
