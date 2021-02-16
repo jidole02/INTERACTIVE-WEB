@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
 import * as header from './headerStyle'
-import {Link, Route, Switch} from 'react-router-dom'
 
 function Header() {
   return (
       <header.HeaderDiv>
-          <a><i class="far fa-paper-plane"></i><b>W</b>eWhy</a>
+          <a><i className="far fa-paper-plane"></i><b>W</b>eWhy</a>
           <div>
               <ul>
                    <li><i>A</i>bout</li>
@@ -14,8 +12,8 @@ function Header() {
               </ul>
           </div>
           <div>
-          <a href="https://github.com/jidole02"><i class="fab fa-github"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100012148756964"><i class="fab fa-facebook"></i></a>
+          <a href="https://github.com/jidole02"><i className="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100012148756964"><i className="fab fa-facebook"></i></a>
           
           </div>
       </header.HeaderDiv>

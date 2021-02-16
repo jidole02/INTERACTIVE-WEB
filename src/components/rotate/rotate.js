@@ -28,9 +28,9 @@ class Color extends Component{
         return(
             <div style={{overflow:'hidden'}}>
                 <C.menuBar>
-                <a href="https://www.facebook.com/profile.php?id=100012148756964"><i class="fab fa-facebook"></i></a>
-                <Link to="/main"><i class="far fa-times-circle"></i></Link>
-                <a href="https://github.com/jidole02/study-react/tree/master/react-project/src/components/rotate"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100012148756964"><i className="fab fa-facebook"></i></a>
+                <Link to="/main"><i className="far fa-times-circle"></i></Link>
+                <a href="https://github.com/jidole02/study-react/tree/master/react-project/src/components/rotate"><i className="fab fa-github"></i></a>
                 </C.menuBar>
                 <C.cont>
                     <div onClick={this.imgC1}>A</div>
